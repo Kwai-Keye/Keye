@@ -44,7 +44,7 @@ VIDEO_MIN_TOKENS = 48
 # max tokens per video frame
 VIDEO_MAX_TOKENS = 768
 # min pixels per video frame
-VIDEO_MIN_PIXELS = VIDEO_MIN_TOKENS * IMAGE_FACTOR * IMAGE_FACTOR # 48 * 28 * 28 = 25,088
+VIDEO_MIN_PIXELS = VIDEO_MIN_TOKENS * IMAGE_FACTOR * IMAGE_FACTOR # 48 * 28 * 28 = 37,632
 # max pixels per video frame
 VIDEO_MAX_PIXELS = VIDEO_MAX_TOKENS * IMAGE_FACTOR * IMAGE_FACTOR # 768 * 28 * 28 = 602,112
 # max total pixels per video
