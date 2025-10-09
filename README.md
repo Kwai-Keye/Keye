@@ -264,6 +264,8 @@ vllm serve \
     --gpu-memory-utilization 0.8 \
     --host 0.0.0.0 \
     --port 8000 \
+    --max-num-batched-tokens 80960 \
+    --max-model-len 80960 \
     --trust-remote-code
 ```
 
@@ -358,7 +360,7 @@ def prepare_message_for_vllm(content_messages):
         for part_message in message_content_list:
             if 'video' in part_message:
                 video_message = [{'content': [part_message]}]
-                image_inputs, video_inputs, video_kwargs = process_vision_info(video_message, return_video_kwargs=True)
+                image_inputs, video_inputs, video_kwargs = process_vision_info(video_message)
                 assert video_inputs is not None, "video_inputs should not be None"
                 video_input = (video_inputs.pop()).permute(0, 2, 3, 1).numpy().astype(np.uint8)
                 fps_list.extend(video_kwargs.get('fps', []))
