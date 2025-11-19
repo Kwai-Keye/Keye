@@ -3,16 +3,16 @@
 
 Meet Keye-VL-671B-A37B — the most powerful multi-modal language model in the Keye series to date.
 
-As one of the largest and most capable MLLMs currently in existence, Keye-VL 671B demonstrates achieved top-tier (T1) — and in some cases even leading — performance in text understanding and generation, complex visual perception and reasoning, comprehensive video understanding, and Olympic-level mathematical reasoning.
+As one of the largest and most capable MLLMs currently in existence, Keye-VL 671B demonstrates achieved top-tier and in some cases even leading performance in text understanding and generation, complex visual perception and reasoning, comprehensive video understanding, and Olympic-level mathematical reasoning.
 
 #### Key Enhancements:
 
 ##### Pre-Training
-* **Efficient Perception Building with Limited Compute**: We employ VisionEncoder from KeyeVL1.5 and rigorously processed high-quality data to cost-effectively build the model’s core perceptual capabilities, ensuring strong visual understanding without excessive computational overhead.
+* **Efficient Perception Building with Limited Compute**: We employ VisionEncoder from Keye-VL-1.5 and rigorously processed high-quality data to cost-effectively build the model’s core perceptual capabilities, ensuring strong visual understanding without excessive computational overhead.
 
-* **Multi-Modal Data Curation**: We implement a automated data pipeline that performs strict filtering, re-sampling, and large-scale synthesis of structured content—including OCR, charts, and tables—augmented by VQA data. This end-to-end process significantly enhances the model’s perception quality and generalization.
+* **Multi-Modal Data Curation**: We implement a automated data pipeline that performs strict filtering, re-sampling, and large-scale synthesis of structured VQA data, including OCR, charts, and tables. This end-to-end process significantly enhances the model’s perception quality and generalization.
 
-* **Reasoning Sustainment via Synthetic CoT Data**: During the Continue-Pretrain phase, we incorporate a diverse set of synthetically generated chain-of-thought (CoT) data. This ensures the model maintains its complex reasoning skills while progressing in perceptual pre-training.
+* **Reasoning Sustainment via Synthetic CoT Data**: During the continual pretrain phase, we incorporate a diverse set of synthetically generated chain-of-thought (CoT) data. This ensures the model maintains its complex reasoning skills while progressing in perceptual pre-training.
 
 ##### Post-Training
 
