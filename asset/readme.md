@@ -24,34 +24,7 @@ As one of the largest and most capable MLLMs currently in existence, Keye-VL-671
 
 ![Performance Comparison](https://github.com/Kwai-Keye/Keye/blob/main/asset/radar.png)
 
-|                       | Benchmarks     | Seed1.5-VL thinking | dots.vlm1 | Qwen3-VL-235B-A22B thinking | Keye-VL-1.5-671B-A37B |
-| --------------------- | -------------- | :-----------------: | :-------: | :-------------------------: | :-------------------: |
-| STEM/Reasoning        | MMMU_VAL       |        77.9         |   80.11   |            80.6             |       **83.78**       |
-|                       | MMMU_Pro       |        67.6         |   70.11   |            69.3             |       **72.49**       |
-|                       | MathVision     |        68.7         |   69.64   |          **74.6**           |         69.11         |
-|                       | MathVista      |        85.6         |   85.0    |            85.8             |       **86.2**        |
-|                       | OlympiadBench  |        65.0         |     -     |              -              |       **74.92**       |
-|                       | VisuLogic      |        35.0         |   32.2    |            34.4             |       **35.4**        |
-| General VQA           | RealWorldQA    |        78.4         |   79.08   |            81.3             |       **86.54**       |
-|                       | MMStar         |        77.8         |   76.67   |            78.7             |       **86.67**       |
-|                       | MMBench-en     |        89.9         |   89.32   |            90.6             |       **95.74**       |
-|                       | MMbench-cn     |        89.1         |   88.24   |              -              |       **94.27**       |
-|                       | MMVP           |        69.3         |   72.0    |              -              |       **88.0**        |
-|                       | V*             |        89.0         |     -     |              -              |       **90.05**       |
-|                       | HallusionBench |        60.3         |   64.83   |            66.7             |       **72.3**        |
-| Video                 | VideoMME       |        77.9         |     -     |          **79.0**           |       **79.0**        |
-|                       | LongVideoBench |        74.0         |     -     |         65.2 (fp8)          |       **79.0**        |
-|                       | MMVU           |        70.1         |     -     |         78.4 (fp8)          |       **86.6**        |
-|                       | TempCompass    |      **83.7**       |     -     |         81.03 (fp8)         |         77.75         |
-| Text Recog./Doc/chart | TextVQA        |      **81.8**       |     -     |              -              |         76.21         |
-|                       | DocVQA_VAL     |      **96.9**       |   96.52   |            96.5             |         95.39         |
-|                       | ChartQA_TEST   |      **89.1**       |   87.68   |              -              |         86.68         |
-|                       | InfoVQA        |      **91.2**       |     -     |            89.5             |         86.93         |
-|                       | CharXiv (RQ)   |        60.2         |   64.4    |            66.1             |       **79.4**        |
-|                       | CharXiv (DQ)   |        92.6         |   92.1    |              -              |       **94.5**        |
-|                       | AI2D_TEST      |        87.3         |   88.37   |            89.2             |       **91.19**       |
-| Pure Text             | AIME2025       |          -          |   85.83   |          **89.7**           |         83.3          |
-|                       | GPQA           |          -          | **72.78** |              -              |         71.21         |
+![Performance on Public Benchmarks](https://github.com/Kwai-Keye/Keye/blob/main/asset/performance.png)
 
 ## Quickstart
 
