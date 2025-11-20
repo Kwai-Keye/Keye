@@ -3,7 +3,7 @@
 
 Meet Keye-VL-671B-A37B — the most powerful multi-modal language model in the Keye series to date.
 
-As one of the largest and most capable MLLMs currently in existence, Keye-VL 671B demonstrates achieved top-tier and in some cases even leading performance in text understanding and generation, complex visual perception and reasoning, comprehensive video understanding, and Olympic-level mathematical reasoning.
+As one of the largest and most capable MLLMs currently in existence, Keye-VL-671B-A37B demonstrates top-tier and in some cases even leading performance in text understanding and generation, complex visual perception and reasoning, comprehensive video understanding, and Olympic-level mathematical reasoning.
 
 #### Key Enhancements:
 
