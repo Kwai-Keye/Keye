@@ -6,6 +6,8 @@
 </div>
 
 <font size=7><div align='center' >  
+[[𝕏 X](https://x.com/KwaiKeye)]
+[[💬 Discord](https://discord.gg/4Q6AmzxpEK)]
 [[🍎 Home Page](https://kwai-keye.github.io/)] 
 [[📖 Technique Report](https://arxiv.org/abs/2509.01563)] 
 [[📊 Keye-VL-8B-Preview](https://huggingface.co/Kwai-Keye/Keye-VL-8B-Preview) ]
