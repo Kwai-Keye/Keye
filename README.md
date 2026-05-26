@@ -20,12 +20,11 @@
 [[📊 Keye-VL-2.0-30B-A3B](https://huggingface.co/Kwai-Keye/Keye-VL-2.0-30B-A3B/) ]
 </div></font>
 
+## 🔥 News
+
 <div align="center">
   <img src="asset/keye_vl_banner.png" width="100%" alt="Keye-VL banner">
 </div>
-
-## 🔥 News
-
 
 * **`2026.05.25`** 🌟 We are excited to introduce **Keye-VL-2.0-30B-A3B**, the latest 30B-class flagship in the Keye series. Powered by DSA for long-video understanding, it delivers nearly lossless reasoning over 256K ultra-long context, tops video benchmarks at its scale, rivals top closed-source models on fine-grained temporal perception, and ships with built-in Agent capabilities across Search, Tool, and Code.
 * **`2025.11.20`** 🌟 We are excited to introduce **Keye-VL-671B-A37B**, the most powerful multi-modal language model in the Keye series to date. We further upgraded the data engineering and training strategies for both pre-training and post-training. Keye-VL-671B-A37B demonstrates top-tier and in some cases even leading performance in text understanding and generation, complex visual perception and reasoning, comprehensive video understanding, and Olympic-level mathematical reasoning.
