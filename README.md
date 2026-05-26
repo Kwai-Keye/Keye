@@ -51,7 +51,7 @@ Meet Keye-VL-2.0-30B-A3B — the latest 30B-class flagship base model in the Key
 ## Highlights
 
 <div align="center">
-  <img src="figures/video_fig.png" width="85%" alt="Video Benchmark Comparison">
+  <img src="asset/video_metric.png" width="85%" alt="Video Benchmark Comparison">
 </div>
 
 * **Outstanding Video Understanding and Temporal Localization**: Across five video benchmarks, Keye-VL-2.0-30B-A3B leads open-source competitors and matches or surpasses Gemini-3-Flash on temporal grounding.
@@ -72,7 +72,7 @@ As the first multi-modal model to land DSA in production, Keye-VL-2.0-30B-A3B de
 
 We compare Keye-VL-2.0-30B-A3B against leading open- and closed-source models (Qwen3.5-35B-A3B, InternVL3.5-241B-A28B, GPT-5-mini, Qwen3-VL 30B-A3B / 32B / 235B-A22B) across **seven capability dimensions**: Video, Coding, Agent, Math & Reasoning, STEM, Instruction Following, and General VQA.
 
-![Performance Comparison](figures/all_metric.png)
+![Performance Comparison](asset/all_metric.png)
 
 Selected highlights (see the technical report for the full table):
 
