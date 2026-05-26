@@ -2,7 +2,10 @@
 
 
 <div align="center">
-  <img src="asset/keye_logo_2.png" width="100%" alt="Kwai Keye-VL Logo">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="asset/keye_logo_2_dark.png">
+    <img src="asset/keye_logo_2.png" width="100%" alt="Kwai Keye-VL Logo">
+  </picture>
 </div>
 
 <font size=7><div align='center' >  
