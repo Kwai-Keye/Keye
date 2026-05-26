@@ -20,6 +20,10 @@
 [[📊 Keye-VL-2.0-30B-A3B](https://huggingface.co/Kwai-Keye/Keye-VL-2.0-30B-A3B/) ]
 </div></font>
 
+<div align="center">
+  <img src="asset/keye_vl_banner.png" width="100%" alt="Keye-VL banner">
+</div>
+
 ## 🔥 News
 
 
