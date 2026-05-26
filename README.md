@@ -31,14 +31,15 @@
 ## Contents <!-- omit in toc -->
 
 - [🔥 News](#-news)
-- [📐 Quick Start](#-quick-start)
-  - [Preprocess and Inference](#preprocess-and-inference)
-  - [Evaluation](#evaluation)
-- [👀 Architecture and Training Strategy](#-architecture-and-training-strategy)
-  - [🌟 Pre-Train](#-pre-train)
-  - [🌟 Post-Train](#-post-train)
-- [📈 Experimental Results](#-experimental-results)
-- [✒️ Citation](#️-citation)
+- [Highlights](#highlights)
+- [Model Performance on Benchmarks](#model-performance-on-benchmarks)
+- [Quickstart](#quickstart)
+    - [Related Repositories](#related-repositories)
+    - [Environment Setup](#environment-setup)
+    - [Minimal Launch (H800)](#minimal-launch-h800)
+    - [Client Usage](#client-usage)
+        - [Image Input](#image-input)
+        - [Video Input](#video-input)
 
 Meet Keye-VL-2.0-30B-A3B — the latest 30B-class flagship base model in the Keye series, purpose-built to push the frontier of long-video understanding and to unlock the first generation of Agent capabilities in the Keye family.
 
@@ -238,3 +239,7 @@ messages = [
 result = generate(messages)
 print(result["choices"][0]["message"]["content"])
 ```
+
+## Acknowledgement
+
+Kwai Keye-VL is developed based on the codebases of the following projects: [SigLIP](https://huggingface.co/google/siglip-so400m-patch14-384), [Qwen3](https://github.com/QwenLM/Qwen3), [Qwen2.5-VL](https://github.com/QwenLM/Qwen2.5-VL), [VLMEvalKit](https://github.com/open-compass/VLMEvalKit). We sincerely thank these projects for their outstanding work.
