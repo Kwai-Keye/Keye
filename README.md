@@ -223,13 +223,15 @@ messages = [
         "content": [
             {
                 "type": "video_url",
-                "video_url": {"url": video_url},
-                "preprocess_kwargs": {
-                    "fps": fps,
-                    "min_pixels": min_token*28*28,
-                    "max_pixels": max_token*28*28,
-                    "video_total_pixels":total_video_token*28*28,
-                }               
+                "video_url": {
+                    "url": video_url,
+                    "preprocess_kwargs": {
+                        "fps": fps,
+                        "min_pixels": min_token*28*28,
+                        "max_pixels": max_token*28*28,
+                        "video_total_pixels":total_video_token*28*28,
+                    }     
+                },          
             },
             {"type": "text", "text": "Describe this video."},
         ],
