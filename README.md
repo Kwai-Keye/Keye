@@ -28,12 +28,6 @@
 * **`2025.07.01`** 🌟 We are excited to announce the release of our comprehensive technical report!  You can read it now at [arxiv](https://arxiv.org/abs/2507.01949).  
 * **`2025.06.26`** 🌟 We are very proud to launch **Kwai Keye-VL**, a cutting-edge multimodal large language model meticulously crafted by the **Kwai Keye Team** at [Kuaishou](https://www.kuaishou.com/). As a cornerstone AI product within Kuaishou's advanced technology ecosystem, Keye excels in video understanding, visual perception, and reasoning tasks, setting new benchmarks in performance. Our team is working tirelessly to push the boundaries of what's possible, so stay tuned for more exciting updates!
 
-
-
-<div align="center">
-  <img src="asset/teaser.png" width="100%" alt="Kwai Keye-VL Performance">
-</div>
-
 ## Contents <!-- omit in toc -->
 
 - [🔥 News](#-news)
