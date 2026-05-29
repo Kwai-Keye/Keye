@@ -207,9 +207,9 @@ def generate(messages):
         "model": "",
         "messages": messages,
         "n": 1,
-        "temperature": 0.0,
-        "max_tokens": 256,
-        "top_k": 1,
+        "temperature": 0.1,
+        "max_tokens": 32760,
+        "top_p": 0.001,
         "ignore_eos": False,
         "skip_special_tokens": True,
     }
@@ -232,10 +232,10 @@ messages = [
                 "video_url": {
                     "url": video_url,
                     "preprocess_kwargs": {
-                        "fps": fps,
-                        "min_pixels": min_token*28*28,
-                        "max_pixels": max_token*28*28,
-                        "video_total_pixels":total_video_token*28*28,
+                        "fps": 2.0,
+                        "min_pixels": 128*28*28,
+                        "max_pixels": 512*28*28,
+                        "video_total_pixels":180*1024*28*28,
                     }     
                 },          
             },
