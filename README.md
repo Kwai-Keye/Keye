@@ -8,17 +8,15 @@
   </picture>
 </div>
 
-<font size=7><div align='center' >  
-[[𝕏 X](https://x.com/KwaiKeye)]
-[[💬 Discord](https://discord.gg/4Q6AmzxpEK)]
-[[💚 WeChat](asset/WeChat.jpg)]
-[[🍎 Home Page](https://kwai-keye.github.io/)] 
-[[📖 Technique Report](https://arxiv.org/abs/2509.01563)] 
-[[📊 Keye-VL-8B-Preview](https://huggingface.co/Kwai-Keye/Keye-VL-8B-Preview) ]
-[[📊 Keye-VL-1.5-8B](https://huggingface.co/Kwai-Keye/Keye-VL-1.5-8B/) ]
-[[📊 Keye-VL-671B-A37B](https://huggingface.co/Kwai-Keye/Keye-VL-671B-A37B/) ]
-[[📊 Keye-VL-2.0-30B-A3B](https://huggingface.co/Kwai-Keye/Keye-VL-2.0-30B-A3B/) ]
-</div></font>
+<div align="center">
+
+[![X](https://img.shields.io/badge/X-@KwaiKeye-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/KwaiKeye)&emsp;[![Discord](https://img.shields.io/badge/Discord-Kwai%20Keye-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/4Q6AmzxpEK)&emsp;[![WeChat](https://img.shields.io/badge/WeChat-Kwai%20Keye-07C160?style=flat-square&logo=wechat&logoColor=white)](asset/WeChat.jpg)&emsp;[![Homepage](https://img.shields.io/badge/Homepage-kwai--keye.github.io-4285F4?style=flat-square&logo=googlechrome&logoColor=white)](https://kwai-keye.github.io/)
+
+[![Keye-VL Tech Report](https://img.shields.io/badge/arXiv-Keye--VL-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2507.01949)&emsp;[![Keye-VL-1.5 Tech Report](https://img.shields.io/badge/arXiv-Keye--VL--1.5-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2509.01563)&emsp;[![Keye-VL-2.0 Tech Report](https://img.shields.io/badge/arXiv-Keye--VL--2.0-B31B1B?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.10651)
+
+[![Keye-VL-8B-Preview](https://img.shields.io/badge/🤗%20Model-Keye--VL--8B--Preview-FFD21E?style=flat-square)](https://huggingface.co/Kwai-Keye/Keye-VL-8B-Preview)&emsp;[![Keye-VL-1.5-8B](https://img.shields.io/badge/🤗%20Model-Keye--VL--1.5--8B-FFD21E?style=flat-square)](https://huggingface.co/Kwai-Keye/Keye-VL-1.5-8B/)&emsp;[![Keye-VL-2.0-30B-A3B](https://img.shields.io/badge/🤗%20Model-Keye--VL--2.0--30B--A3B-FFD21E?style=flat-square)](https://huggingface.co/Kwai-Keye/Keye-VL-2.0-30B-A3B/)
+
+</div>
 
 ## 🔥 News
 
@@ -26,6 +24,7 @@
   <img src="asset/keye_vl_banner.png" width="100%" alt="Keye-VL banner">
 </div>
 
+* **`2026.06.10`** 🌟 **Keye-VL-2.0 Technical Report** is now available at [arxiv](https://arxiv.org/abs/2606.10651).
 * **`2026.05.25`** 🌟 We are excited to introduce **Keye-VL-2.0-30B-A3B**, the latest 30B-class flagship in the Keye series. Powered by DSA for long-video understanding, it delivers nearly lossless reasoning over 256K ultra-long context, tops video benchmarks at its scale, rivals top closed-source models on fine-grained temporal perception, and ships with built-in Agent capabilities across Search, Tool, and Code.
 * **`2025.11.20`** 🌟 We are excited to introduce **Keye-VL-671B-A37B**, the most powerful multi-modal language model in the Keye series to date. We further upgraded the data engineering and training strategies for both pre-training and post-training. Keye-VL-671B-A37B demonstrates top-tier and in some cases even leading performance in text understanding and generation, complex visual perception and reasoning, comprehensive video understanding, and Olympic-level mathematical reasoning.
 * **`2025.09.01`** 🌟 **Kwai Keye-VL 1.5 Technical Report** is now available at [arxiv](https://arxiv.org/abs/2509.01563).  
